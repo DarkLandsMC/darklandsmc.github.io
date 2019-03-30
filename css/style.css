@@ -1,0 +1,49 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: Colabthi;
+	overflow: hidden;
+	background-image: url(../images/background-image.png);
+}
+
+@font-face {
+    font-family: "Colabthi";
+    src: url('../fonts/Colabthi.otf') format('opentype');
+}
+
+#main {
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	text-align: center;
+}
+
+#main p {
+	color: #ffffff;
+	font-size: 30px;
+	padding-bottom: 70px;
+	margin-top: -90px;
+}
+
+.server-ip span {
+	text-decoration: underline;
+}
+
+#main button {
+	padding: 15px;
+	border: none;
+}
+
+#main button a {
+	text-decoration: none;
+	color: black;
+}
+
+#icons img {
+	max-width: 100%;
+}
